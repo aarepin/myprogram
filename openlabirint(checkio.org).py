@@ -45,8 +45,9 @@ def checkio(mm):
             i[1]=i[1]+1
             path='W'+path
     return path
-
-
+###############################################################################
+# дальше идут инструменты для проверки моей функции, данные с условием задачи #
+###############################################################################
 if __name__ == '__main__':
     #This code using only for self-checking and not necessary for auto-testing
     def check_route(func, labyrinth):
